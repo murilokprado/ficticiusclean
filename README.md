@@ -8,11 +8,11 @@ Projeto backend utilizando a stack java __spring boot__, para o cálculo e preci
 ## Build e run dos testes :computer:
 Para efetuar o build e o run dos testes iremos utilizar o __maven__.
 
-`maven clean package -U`
+`mvn clean package -U`
 
 Caso optar por não rodar os testes poderá executar o seguinte comando
 
-`maven clean package -U -DskipTests`
+`mvn clean package -U -DskipTests`
 
 ## Criando a imagem do docker :scroll:
 O próximo passo é criar a imagem do docker com o comando:
